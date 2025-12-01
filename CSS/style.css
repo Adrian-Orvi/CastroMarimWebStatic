@@ -20,7 +20,7 @@ header {
     align-items: center;
     text-align: center;
     color: #3A2C1A;
-    font-family: 'MedievalSharp', cursive;
+    font-family: 'Uncial Antiqua', cursive;
     font-size: 40px;
     height: 200px;
     width: 90%;
@@ -57,7 +57,7 @@ header h1 {
 .navegacion a {
     padding: 5px;
     background: #8B5E3C;
-    font-family: 'MedievalSharp', cursive;
+     font-family: 'Uncial Antiqua', cursive;
     color: white;
     border-radius: 8px;
     text-decoration: none;
