@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #f2e2b8 0%, #b98a40 100%);
+    color: #3A2C1A;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.container {
+    width: 100%;
+}
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #3A2C1A;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 40px;
+    height: 200px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background: linear-gradient(145deg, #f4e3b2 0%, #d9b56a 100%);
+    border: 5px solid #C9A34E;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+}
+
+header h1 {
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    text-shadow: 4px 4px 8px #6b4b2f;
+
+}
+
+
+
+.navegacion nav {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    color: #3A2C1A;
+}
+.navegacion a {
+    padding: 5px;
+    background: #8B5E3C;
+    font-family: 'UnifrakturCook', cursive;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 2px solid #0a0a0a;
+    transition: all 0.5s ease;
+}
+.navegacion a:hover {
+    background: #C9A34E;
+    color: #1A1A1A;
+    transform: scale(1.20);
+    transition: 0.6s ease;
+}
+
+
+
+.informacion {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fotoPrincipal {
+    width: 85%;
+    height: 90vh;
+    border: 5px solid #3A2C1A;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+
+.origen h3, .transformacion h3, .tradiciones h3, .espectaculos h3,
+.mercadoMedieval h3, .impacto h3, .participacionInternacional h3,
+.importanciaTuristicaCultural h3, .recopilacion h3 {
+    font-size: 50px;
+    color: #3A2C1A;
+    text-align: center;
+}
+
+.origen, .transformacion, .tradiciones, .espectaculos,
+.mercadoMedieval, .impacto, .participacionInternacional,
+.importanciaTuristicaCultural, .recopilacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.origenContenido, .transformacionContenido, .tradicionesContenido, .espectaculosContenido,
+.mercadoContenido, .impactoContenido, .participacionContenido, .importanciaContenido {
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.origenContenido p, .transformacionContenido p, .tradicionesContenido p, .espectaculosContenido p,
+.mercadoContenido p, .impactoContenido p, .participacionContenido p, .importanciaContenido p {
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 25px;
+    color: #3A2C1A;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.origenContenido img, .transformacionContenido img, .tradicionesContenido img, .espectaculosContenido img,
+.mercadoContenido img, .impactoContenido img, .participacionContenido img, .importanciaContenido img {
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 50vh;
+    border: 5px solid #3A2C1A;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.origenContenido img:hover, .transformacionContenido img:hover, .tradicionesContenido img:hover,
+.espectaculosContenido img:hover, .mercadoContenido img:hover, .impactoContenido img:hover,
+.participacionContenido img:hover, .importanciaContenido img:hover {
+    transform: scale(1.10);
+    transition: 0.6s ease;
+}
+
+
+.recopilacionContenido {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.recopilacionContenido img {
+    width: 30%;
+    height: 50vh;
+    border: 5px solid #3A2C1A;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footer {
+    background: #8B5E3C;
+    color: #fff;
+    padding: 30px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+.footer-links {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer-links a {
+    color: #C9A34E;
+    font-weight: bold;
+}
+.footer-links a:hover {
+    color: #fff;
+}
+.frase {
+    margin-top: 15px;
+    font-style: italic;
+    color: #F3E3C2;
+}
+.frase:hover{
+    transform: scale(1.50);
+    color:#bef00c;
+    transition: 0.6s ease;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    header {
+        font-size: 20px;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .navegacion nav {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .navegacion a {
+        font-size: 20px;
+        width: 80%;
+        padding: 8px 15px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .origenContenido, .transformacionContenido, .tradicionesContenido, .espectaculosContenido,
+    .mercadoContenido, .impactoContenido, .participacionContenido, .importanciaContenido {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .origenContenido p, .transformacionContenido p, .tradicionesContenido p, .espectaculosContenido p,
+    .mercadoContenido p, .impactoContenido p, .participacionContenido p, .importanciaContenido p {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .origenContenido img, .transformacionContenido img, .tradicionesContenido img, .espectaculosContenido img,
+    .mercadoContenido img, .impactoContenido img, .participacionContenido img, .importanciaContenido img {
+        width: 80%;
+        margin: 10px 0;
+        border: 6px ridge #C9A34E;
+        border-radius: 5px;
+    }
+
+    .recopilacionContenido {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .recopilacionContenido img {
+        width: 90%;
+        border: 6px ridge #C9A34E;
+        border-radius: 5px;
+    }
+    .footer-links {
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 756px) {
+
+    header {
+        font-size: 26px;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .navegacion a {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .origenContenido, .transformacionContenido, .tradicionesContenido, .espectaculosContenido, 
+    .mercadoContenido, .impactoContenido, .participacionContenido, .importanciaContenido {
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .origenContenido p, .transformacionContenido p, .tradicionesContenido p, .espectaculosContenido p,
+    .mercadoContenido p, .impactoContenido p, .participacionContenido p, .importanciaContenido p {
+        font-size: 22px;
+        width: 60%;
+    }
+
+    .origenContenido img, .transformacionContenido img, .tradicionesContenido img, .espectaculosContenido img,
+    .mercadoContenido img, .impactoContenido img, .participacionContenido img, .importanciaContenido img {
+        width: 35%;
+        border: 6px ridge #C9A34E;
+        border-radius: 5px;
+    }
+
+    .recopilacionContenido {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 20px;
+        justify-items: center;
+    }
+
+    .recopilacionContenido img {
+        width: 90%;
+        border: 6px ridge #C9A34E;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header{
+        font: size 30px; ;
+    }
+}
